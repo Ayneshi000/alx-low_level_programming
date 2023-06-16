@@ -1,4 +1,9 @@
-#include <stdio.h>
+/*
+ * File: 8-print_base16.c
+ * Auth: Brennan D Baraban
+ */
+
+#include <stdio.h>
 
 /**
  * main - Prints all the numbers of base 16 in lowercase.
