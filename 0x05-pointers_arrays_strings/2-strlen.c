@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strlen function returns the length of a string
  * pointer to string
@@ -16,5 +17,5 @@ int _strlen(char *s)
 
 	}
 
-	return(i);
+	return (i);
 }
