@@ -1,5 +1,4 @@
 #include "main.h"
-#include "holberton.h"
 /**
  * print_buffer - add 2 strings.
  * @b: string1.
