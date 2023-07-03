@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _memset - function fills the memory with const byte
- * @s: pointer to memory locations
- * @b: const byte
- * @n: number of memory areas
+ * _memset - function that fills memory with a constant byte
+ *@s: first value
+ *@b: second value
+ *@n: thirth value
  *
- * Return: char to the value of memset.
+ * Return: char with result of memset
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -16,4 +16,4 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 	return (s);
-
+}
