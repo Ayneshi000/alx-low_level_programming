@@ -5,6 +5,7 @@
  * @s: pointer to memory locations
  * @b: const byte
  * @n: number of memory areas
+ *
  * Return: char to the value of memset.
  */
 
