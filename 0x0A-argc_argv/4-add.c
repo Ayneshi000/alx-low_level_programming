@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+#include <main.h>i
 #include <string.h>
 
 /**
@@ -13,13 +13,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int sum = 0, i;
+	unsigned int sum = 0, i;
 
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			int b;
+			unsigned int b;
 			char *str;
 
 			str = argv[i];
