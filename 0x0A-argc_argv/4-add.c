@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>i
+#include <ctype.h>i
 #include <string.h>
 
 /**
@@ -40,3 +40,4 @@ int main(int argc, char *argv[])
 	printf("%d\n", sum);
 	return (0);
 }
+
