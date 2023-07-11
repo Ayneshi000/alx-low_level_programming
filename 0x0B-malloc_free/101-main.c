@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * print_tab - Prints an array of string
+ * print_tab - Prints an array of strings
  * @tab: The array to print
  *
- * Return: nothing
+ * Return: Nothing
  */
 void print_tab(char **tab)
 {
@@ -19,9 +19,9 @@ void print_tab(char **tab)
 }
 
 /**
- * main - check the code for ALX School students.
+ * main - Entry point
  *
- * Return: 1 if an error occurred, 0 otherwise
+ * Return: 0 on success, 1 on failure
  */
 int main(void)
 {
@@ -33,6 +33,8 @@ int main(void)
         printf("Failed\n");
         return (1);
     }
+
     print_tab(tab);
+
     return (0);
 }
